@@ -9,6 +9,8 @@
 >[corpus constitué à partir de cette source]( https://www.sanitaire-social.com/annuaire-etablissements-de-sante/etablissement-de-sante)
 **Ce corpus est constitué manuellement à partir des données récupérées sur cette page**
 Dans ce fichier se trouve la liste des établissements de santé
+>[Corpus sur l'effectif](https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2F34869c69-188e-48ca-8242-70161aebab47&annee__less=2022&annee__greater=2021&libelle_type_exercice_liberal__exact=lib%C3%A9ral+exclusif&profession_sante__exact=M%C3%A9decins+g%C3%A9n%C3%A9ralistes+%C3%A0+expertise+particuli%C3%A8re+%28MEP%29)
+
 
 4. [Première Vidualisation](#visualisation)
 
