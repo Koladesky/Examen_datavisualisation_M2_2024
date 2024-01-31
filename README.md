@@ -4,7 +4,10 @@
 ## Sommaire
 1. [Introduction](#introduction)
 2. [Collecte des données](#collectedesdonnes)
-3. [Conclusion](#conclusion)
+3. [Cartographie des Établissements de Santé en France : Disparités Régionales](CartographiedesetablissementsdeSanteenFrance:disparitesregionales)
+4. [Paysage des Médecins Libéraux Français : Une Vue par Département](PaysagedesMedecinsLibérauxFrançais:unevuepardepartement)
+5. [Comparatif des Ressources en Santé : Établissements et Médecins par Département](ComparatifdesRessourcesenSanté:etablissementsetmedecinspardepartement)
+6. [Conclusion](#conclusion)
 
 
 
@@ -20,7 +23,7 @@ Dans ce fichier se trouve la liste des établissements de santé
 >[Corpus sur l'effectif](https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2F34869c69-188e-48ca-8242-70161aebab47&annee__less=2022&annee__greater=2021&libelle_type_exercice_liberal__exact=lib%C3%A9ral+exclusif&profession_sante__exact=M%C3%A9decins+g%C3%A9n%C3%A9ralistes+%C3%A0+expertise+particuli%C3%A8re+%28MEP%29)
 
 
-## 3. Visualisation 1
+## 3. Cartographie des Établissements de Santé en France : Disparités Régionales
 
 >[fichier_visualisation1](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 
@@ -30,7 +33,7 @@ Dans ce fichier se trouve la liste des établissements de santé
 D'autre part, certains départements comme la Creuse, la Lozère et les Hautes-Alpes, représentés par de petites bulles, indiquent un nombre plus restreint d'établissements de santé. Cette situation pourrait soulever des questions d'accessibilité et de couverture sanitaire pour les populations résidant dans ces zones moins densément peuplées ou plus rurales.
 Il est important de noter que la taille des bulles ne reflète pas nécessairement la qualité ou la gamme de services de santé disponibles, mais simplement le nombre d'établissements.
 
-## 4. visualisation 2
+## 4. Paysage des Médecins Libéraux Français : Une Vue par Département
 >[fichier_visualisation2](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16645039"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 Cette deuxième visualisation représente les effectifs de médecins libéraux par département en France en 2021 (https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2F34869c69-188e-48ca-8242-70161aebab47&annee__less=2022&annee__greater=2021&libelle_type_exercice_liberal__exact=lib%C3%A9ral+exclusif
@@ -42,8 +45,11 @@ La diversité des couleurs aide à distinguer les différentes zones, mais il es
 
 
 
-## 5. Visualisation 3
+## 5. Comparatif des Ressources en Santé : Établissements et Médecins par Département
 >[fichier_visualisation3](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 <div class="flourish-embed flourish-chart" data-src="visualisation/16646289"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+Cette visualisation met en parallèle le nombre d'établissements de santé (représenté par des points et une ligne verte) et le nombre de médecins libéraux (représenté par des points et une ligne orange) pour chaque département en France.
+Il s’agit de comparer deux variables différentes mais liées pour observer leur relation à travers différents départements. Les pics dans les données des médecins libéraux, qui sont beaucoup plus marqués que ceux pour les établissements de santé, indiquent des départements où il y a un nombre particulièrement élevé de médecins. Cependant, un pic très haut, comme celui observé pour Paris, suggère une concentration exceptionnelle de médecins libéraux qui n'est pas nécessairement proportionnelle à la taille de la population ou au nombre d'établissements de santé.
 
-## 6. Conclusion 
+## . Conclusion 
+Ces visualisations conjointes dressent le portrait d'une distribution des soins de santé en France qui est aussi riche que complexe. Elles mettent en exergue l'importance d'une stratégie de santé publique bien pensée, visant à équilibrer les ressources entre les régions et à garantir que l'accès aux soins ne soit pas uniquement une fonction de la densité démographique ou de la centralisation urbaine. Pour les décideurs, l'enjeu est de taille : il s'agit de réaligner les ressources pour répondre aux besoins de tous les citoyens, en assurant une distribution équitable des professionnels de santé et des infrastructures médicales à travers le pays.
