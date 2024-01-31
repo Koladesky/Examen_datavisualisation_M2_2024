@@ -27,11 +27,11 @@ Dans ce fichier se trouve la liste des établissements de santé
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16644482"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## 4. visualisation 2
->[fichier_visualisation1](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
+>[fichier_visualisation2](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16645039"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## 5. Visualisation 3
->[fichier_visualisation1](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
+>[fichier_visualisation3](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 <div class="flourish-embed flourish-chart" data-src="visualisation/16646289"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## 6. Conclusion 
