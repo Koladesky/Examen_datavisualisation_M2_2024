@@ -6,7 +6,11 @@
 ## Sommaire
 1. [Introduction](#intro)
 2. [Corpus](#jeudedonnees)
-3. [Première Vidualisation](#visualisation)
+>[corpus constitué à partir de cette source]( https://www.sanitaire-social.com/annuaire-etablissements-de-sante/etablissement-de-sante)
+**Ce corpus est constitué manuellement à partir des données récupérées sur cette page**
+Dans ce fichier se trouve la liste des établissements de santé
+
+4. [Première Vidualisation](#visualisation)
 
 >[fichier_visualisation1](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 
