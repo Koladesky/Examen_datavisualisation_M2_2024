@@ -1,0 +1,234 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/fr/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q6465",
+        "name": "département français"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Département to type Q6465"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Alpes-de-Haute-Provence",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3131",
+      "name": "Alpes-de-Haute-Provence",
+      "types": [
+        "Q6465"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alpes-de-Haute-Provence (Q3131) for cells containing \"Alpes-de-Haute-Provence\" in column Département"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Alpes-Maritimes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q3139",
+      "name": "Alpes-Maritimes",
+      "types": [
+        "Q6465"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alpes-Maritimes (Q3139) for cells containing \"Alpes-Maritimes\" in column Département"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Corse",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2998020",
+      "name": "Corse",
+      "types": [
+        "Q6465"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Corse (Q2998020) for cells containing \"Corse\" in column Département"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Guadeloupe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q17012",
+      "name": "Guadeloupe",
+      "types": [
+        "Q36784",
+        "Q202216",
+        "Q161243"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Guadeloupe (Q17012) for cells containing \"Guadeloupe\" in column Département"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Loire",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12569",
+      "name": "Loire",
+      "types": [
+        "Q6465"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Loire (Q12569) for cells containing \"Loire\" in column Département"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Nord",
+    "judgment": "matched",
+    "match": {
+      "id": "Q12661",
+      "name": "Nord",
+      "types": [
+        "Q6465"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nord (Q12661) for cells containing \"Nord\" in column Département"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Département",
+    "similarValue": "Rhone",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46130",
+      "name": "Rhône",
+      "types": [
+        "Q6465",
+        "Q6465"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rhône (Q46130) for cells containing \"Rhone\" in column Département"
+  },
+  {
+    "op": "core/extend-reconciled-data",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Département",
+    "endpoint": "https://wikidata.reconci.link/fr/api",
+    "identifierSpace": "http://www.wikidata.org/entity/",
+    "schemaSpace": "http://www.wikidata.org/prop/direct/",
+    "extension": {
+      "properties": [
+        {
+          "id": "P625",
+          "name": null
+        }
+      ]
+    },
+    "columnInsertIndex": 2,
+    "description": "Extend data at index 2 based on column Département"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "coordonnées géographiques",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column coordonnées géographiques by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordonnées géographiques 1",
+    "newColumnName": "lat",
+    "description": "Rename column coordonnées géographiques 1 to lat"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "coordonnées géographiques 2",
+    "newColumnName": "long",
+    "description": "Rename column coordonnées géographiques 2 to long"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "effectifs",
+    "newColumnName": "medecins_libe",
+    "description": "Rename column effectifs to medecins_libe"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Département",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "nom_departement",
+    "columnInsertIndex": 2,
+    "description": "Create column nom_departement at index 2 based on column Département using expression grel:value"
+  }
+]
