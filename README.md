@@ -33,6 +33,12 @@ Il est important de noter que la taille des bulles ne reflète pas nécessaireme
 ## 4. visualisation 2
 >[fichier_visualisation2](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16645039"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+Cette deuxième visualisation représente les effectifs de médecins libéraux par département en France en 2021 (https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2F34869c69-188e-48ca-8242-70161aebab47&annee__less=2022&annee__greater=2021&libelle_type_exercice_liberal__exact=lib%C3%A9ral+exclusif
+). 
+ Chaque bloc de couleur représente un département spécifique et sa taille est proportionnelle au nombre de médecins libéraux qu'il compte.
+D'emblée, on remarque que Paris se distingue nettement avec le plus grand bloc, indiquant le plus grand nombre de médecins libéraux (364), ce qui n'est pas surprenant compte tenu de sa population dense et de son statut de centre urbain majeur avec une forte concentration de services et de ressources. La Gironde et le Var suivent, avec respectivement 138 et 135 médecins libéraux, suggérant également une bonne disponibilité des soins médicaux dans ces départements.
+La diversité des couleurs aide à distinguer les différentes zones, mais il est important de noter que les couleurs elles-mêmes ne semblent pas correspondre à une échelle particulière ou à une autre variable. Le choix des couleurs est destiné à différencier visuellement chaque département.
+
 
 
 
