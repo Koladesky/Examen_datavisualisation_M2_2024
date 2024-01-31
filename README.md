@@ -29,6 +29,7 @@ Dans ce fichier se trouve la liste des établissements de santé
  L'analyse de ce graphique révèle des disparités significatives entre les départements. Par exemple, on observe que le département du Nord (93) se distingue par le plus grand nombre d'établissements, suivi de près par Paris (74) et le Rhône (71). Ces trois départements, caractérisés par des bulles particulièrement volumineuses, suggèrent une concentration élevée d'établissements de santé, ce qui pourrait refléter une densité de population plus élevée et/ou un pôle urbain majeur avec des besoins en soins de santé plus importants.
 D'autre part, certains départements comme la Creuse, la Lozère et les Hautes-Alpes, représentés par de petites bulles, indiquent un nombre plus restreint d'établissements de santé. Cette situation pourrait soulever des questions d'accessibilité et de couverture sanitaire pour les populations résidant dans ces zones moins densément peuplées ou plus rurales.
 Il est important de noter que la taille des bulles ne reflète pas nécessairement la qualité ou la gamme de services de santé disponibles, mais simplement le nombre d'établissements.
+
 ## 4. visualisation 2
 >[fichier_visualisation2](https://github.com/Koladesky/Examen_datavisualisation_M2_2024/blob/main/Etablissemments-sante.csv)
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16645039"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
